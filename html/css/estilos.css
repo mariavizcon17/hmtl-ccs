@@ -1,0 +1,101 @@
+body{
+   background-color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+#inicio {
+    text-align: center;
+    font-size: 36px; 
+    text-decoration: underline;
+    
+}
+
+#producto h2{
+    color:red;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.negrita{
+    font-weight: bold;
+}
+.precio{
+background-color: blueviolet;
+}
+.mi-regla{
+    font-size: 28px; 
+}
+#producto img{
+    width: 200px;
+}
+#contacto h1{
+
+ color: red;
+ text-align: center;
+
+}
+input[type=text],input[type=email],select{
+    width: 225px;
+    height: 25px;
+    font-size: 16px;
+}
+.boton{
+ width: 95px;
+ height: 35px;
+ background-color: red;
+ color: white;
+ border: 1px solid lightcoral;
+ 
+}
+.ast{
+    color: red;
+}
+input:focus{
+    background-color: palevioletred;
+}
+.boton:hover{
+    background-color: white;
+    color: red;
+}
+
+
+
+/*Estilos Menu*/
+ul.menu {
+    overflow: hidden;
+    background-color:red;
+  
+}
+
+ul.menu li{
+    float: left;
+    width: 180px;
+    list-style-type: none;
+}
+
+ul.menu li a{
+ display: block;
+ text-decoration: none;
+ padding: 20px 0;
+ color: white;
+ text-align: center;
+ text-transform: uppercase;
+}
+
+ul.menu li a:hover{
+    background-color: white;
+    color: red;
+}
+
+/*CONTACTO*/
+
+section.contacto{
+    clear: both;
+}
+/* regla para el dispositivo reconozca las medidas de los dispositivo*/
+@media(max-width:768px){   
+    ul.menu li{
+        float: none;
+        width: 100px;
+    }
+}
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/estilos.css">
+   
+    <title>Contacto</title>
+</head>
+<body>
+    <section id="contacto">
+    <h1>¡ESCRIBINOS, TE RESPONDEMOS A LA BREVEDAD!</h1>
+    <form action="" method="POST">
+
+        <div>
+            <label for="txtNombre">Nombre: <span class="ast">*</span></label>
+            <input type="text" name="txtNombre" id="txtNombre" required>
+        </div>
+         <div>
+            <label for="txtCorreo">Email: <span class="ast">*</span></label>
+            <input type="email" name="txtCorreo" id="txtCorreo" required>
+        </div>
+        <div>
+            <label for="txtTelefono">Telefono: <span class="ast">*</span></label>
+            <input type="text" name="txtTelefono" id="txtTelefono" required placeholder="ej: (011) 1123456787">
+        </div>
+        <div>
+            <label for="istPais">Pais de Origen</label>
+            <select name="istPais" id="istPais">
+            <optgroup label="SudAmerica">
+                <option value="ar">Argentina</option>
+                <option value="col">Colombia</option>
+                <option value="ven">Venezuela</option>
+            </optgroup>
+            <optgroup label="Europa">
+                    <option value="su">Suiza</option>
+                    <option value="al">Alemania</option>
+                    <option value="fr">Francia</option>
+                </optgroup>
+        </select>
+        </div>
+        <div>
+            <label for="lstAsunto">Asunto</label>
+            <select name="lstAsunto" id="lstAsunto">
+            <option value="" disabled selected>Seleccionar</option>
+            <option value="Venta">Venta</option>
+            <option value="Soporte">Soporte</option>
+            <option value="Webmaster">Webmaster</option>
+
+            </select>
+        </div>
+        <div>
+            <label for="textMensaje">Mensaje: <Span class="ast">*</Span></label>
+            <textarea name="" id="" cols="150" rows="10" required></textarea>
+        </div>
+        <div>
+            <input type="checkbox" name="chkNewletter" id="chkNewletter">
+            <label for="chkNewletter">Deseo Recibir novedades a correo</label>
+        </div>
+            <div>
+                <input type="checkbox" name="chkNewpolitica" id="chkNewpolitica">
+                <label for="chkNewpolitica">Acepto Politicas de Privacidad</label>
+            </div>
+        <div>
+            <label>Es mayor de Edad</label>
+            <input type="radio" name="optMayor" id="optMayorSi" value="si"><label for="optMayorSi">Si</label>
+            <input type="radio" name="optMayor" id="optMayorNo" value="no"><label for="optMayorNo">No</label>
+        </div>
+        <div>
+            <input type="submit" value="Enviar" id="btnEnviar" name="btnEnviar" class="boton">
+        </div>
+        
+</form>
+</section>
+</body>
+</html>

@@ -1,0 +1,86 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #eeeeee;
+}
+.navbar{
+    padding: 0 12%;
+    margin-top: 12px;
+}
+.nav-link{
+    color:#4B4B4B !important;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.active{
+    text-decoration: underline;
+}
+.nav-item{
+    width: 250px;
+    text-align: center;
+}
+#contacto h1, #contacto p{
+    font-weight: 700;
+}
+#contacto h1{
+    font-size: 55px;
+}
+#contacto p{
+    font-size: 30px;
+}
+
+#contacto input[type=text], #contacto input[type=email] , #contacto textarea {
+    background-color: #eeeeee;
+    border: 0;
+    border-bottom: 1px solid;
+    border-radius: 0px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    border-radius: 0px;
+    padding: 8px 30px;
+    text-transform: uppercase;
+    border:1px solid black;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+@media (max-width: 700px) {
+
+    #contacto h1{
+        font-size: 55px;
+    }
+    #contacto p{
+        font-size: 30px;
+    }
+
+}
+
+footer a{
+    color:black;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+footer i{
+    font-size: 35px;
+    border: 1px solid;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 15px;
+}
+#proyectos img{
+    width: 100%;
+    height: 260px;
+}
+
+#home{
+    background: url(../images/Fondos-01.png);
+    background-repeat: repeat;
+    background-size: 100%;
+    min-height: 550px;
+}
